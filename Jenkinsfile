@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKERHUB_CREDENTIALS_ID = 'Docker_Hub'
-        DOCKERHUB_REPO = 'alvaripo/ShoppingcartLocalization'
+        DOCKERHUB_REPO = 'alvaripo/shoppingcartLocalization'
         DOCKER_IMAGE_TAG = 'latest_v1'
     }
     stages {
